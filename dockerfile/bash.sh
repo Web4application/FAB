@@ -1,4 +1,3 @@
-https://liveblocks-starter-kit-lemon-zeta.vercel.app
 # Get the code using git sparse checkout
 git clone --filter=blob:none --no-checkout https://github.com/supabase/supabase
 cd supabase
@@ -27,5 +26,3 @@ docker compose pull
 
 # Start the services (in detached mode)
 docker compose up -d
-
-export SUPERSET_CONFIG_PATH=/app/superset_config.py
