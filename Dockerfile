@@ -26,3 +26,5 @@ docker compose pull
 
 # Start the services (in detached mode)
 docker compose up -d
+
+export SUPERSET_CONFIG_PATH=/app/superset_config.py
