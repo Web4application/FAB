@@ -1,0 +1,36 @@
+superset-extensions init: Generates the initial folder structure and scaffolds a new extension project.
+
+superset-extensions build: Builds extension assets.
+
+superset-extensions bundle: Packages the extension into a .supx file.
+
+superset-extensions dev: Automatically rebuilds the extension as files change.
+
+
+
+dataset_references/
+├── extension.json
+├── frontend/
+│   ├── src/
+│   ├── webpack.config.js
+│   ├── tsconfig.json
+│   └── package.json
+├── backend/
+│   ├── src/
+│        └── dataset_references/
+│   ├── tests/
+│   ├── pyproject.toml
+│   └── requirements.txt
+├── dist/
+│   ├── manifest.json
+│   ├── frontend
+│        └── dist/
+│             ├── remoteEntry.d7a9225d042e4ccb6354.js
+│             └── 900.038b20cdff6d49cfa8d9.js
+│   └── backend
+│        └── dataset_references/
+│             ├── __init__.py
+│             ├── api.py
+│             └── entrypoint.py
+├── dataset_references-1.0.0.supx
+└── README.md
