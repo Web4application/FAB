@@ -1,0 +1,7 @@
+basicauth_credentials:
+  - consumer: DASHBOARD
+    username: user_one
+    password: password_one
+  - consumer: DASHBOARD
+    username: user_two
+    password: password_two
