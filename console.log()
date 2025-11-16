@@ -1,0 +1,5 @@
+    console.log("Hello, world!"); // Outputs the string "Hello, world!"
+    let x = 10;
+    console.log("The value of x is:", x); // Outputs "The value of x is: 10"
+    let myObject = { name: "Alice", age: 30 };
+    console.log(myObject); // Outputs the object { name: "Alice", age: 30 }
