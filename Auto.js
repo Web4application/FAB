@@ -1,10 +1,9 @@
 const puppeteer = require('puppeteer');
-
 (async () => {
   // --- CONFIG ---
-  const INITIAL_URL = 'https://xxxxx.localhost.mobi'; // replace with your Localhost.mobi URL
+  const INITIAL_URL = 'https://app.localhost.mobi'; // replace with your Localhost.mobi URL
   const ITERATION_LIMIT = 20; // as requested
-  const MODEL_TO_LOAD = 'llama3-8b-web'; // example, can be API or Ollama
+  const MODEL_TO_LOAD = 'chatgpt-5' ,'neomindai' , 'brainai' , 'roda , wen4ai , lola , gpt-5 mini , reallms , agbakoai, aura , swiftbot , codegen , enclovai'; // example, can be API or Ollama
   const XLSL_ENABLED = true;
 
   // --- LAUNCH BROWSER ---
