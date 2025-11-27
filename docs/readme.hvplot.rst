@@ -1,5 +1,4 @@
 # Uploading and installing conda packages
-
 Anaconda.org is a centralized package <Tooltip tip="Any storage location from which software or software assets, like packages, can be retrieved and installed on a local computer.">repository</Tooltip> and distribution platform for the conda ecosystem. The site enables you to both upload your own conda packages and discover conda packages created by other users.
 
 <Note>
