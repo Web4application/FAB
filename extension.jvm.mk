@@ -7,7 +7,7 @@ superset-extensions bundle: Packages the extension into a .supx file.
 superset-extensions dev: Automatically rebuilds the extension as files change.
 
 
-
+```bash
 dataset_references/
 ├── extension.json
 ├── frontend/
@@ -34,3 +34,4 @@ dataset_references/
 │             └── entrypoint.py
 ├── dataset_references-1.0.0.supx
 └── README.md
+```
